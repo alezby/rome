@@ -11,7 +11,7 @@ CURR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 ROME_ROOT="$CURR_DIR/.."
 DEV_FOLDER="/tmp/rome-dev"
 export ROME_CACHE=0
-
+#here i test
 rm -rf "$DEV_FOLDER"
 mkdir "$DEV_FOLDER"
 
